@@ -164,12 +164,12 @@ ul {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.block_1_button {
+.block_1_link {
   margin-top: 180px;
   display: block;
 }
 
-.block_1_button button {
+.block_1_link button {
   transition: all 300ms ease;
   width: 100%;
   border: 1px solid #333;
