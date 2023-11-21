@@ -229,7 +229,7 @@ ul {
   margin-top: 63px;
 }
 
-.block_2_gallery_menu span {
+.block_2_gallery_menu p {
   color: #BDBDBD;
   font-family: Montserrat;
   font-size: 18px;
@@ -238,6 +238,7 @@ ul {
   line-height: normal;
   letter-spacing: 3.6px;
   text-transform: uppercase;
+  cursor: default;
 }
 
 .block_2_gallery_menu ul {
@@ -455,7 +456,7 @@ ul {
   margin-top: 37px;
 }
 
-.block_3_name p {
+.block_3_name h2 {
   color: #333;
   font-family: Montserrat-Medium, Arial, Helvetica, sans-serif;
   font-size: 36px;
@@ -601,7 +602,7 @@ ul {
   transition: all 300ms ease;
 }
 
-.block_5_contacts p {
+.block_5_contacts h2 {
   color: #FFF;
   font-family: Montserrat-Medium, Arial, Helvetica, sans-serif;
   font-size: 28px;
@@ -609,10 +610,10 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 5.6px;
-  margin-bottom: 27px;
-}
+  margin-bottom: 26px;
+  }
 
-.block_5_contacts p:nth-last-child(2) {
+.block_5_contacts p {
   color: #FFF;
   font-family: Montserrat-Medium, Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -620,6 +621,7 @@ ul {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 3.6px;
+  margin-bottom: 26px;
 }
 
 .block_5_links {
@@ -1194,7 +1196,7 @@ background: rgba(186, 231, 255, 0.136); */
 
 @media (max-width: 660px) {
 
-  .block_5_contacts p {
+  .block_5_contacts h2 {
     font-size: 5.4vw;
     margin-bottom: 12px;
   }
@@ -1208,7 +1210,7 @@ background: rgba(186, 231, 255, 0.136); */
     font-size: 8vw;
   }
 
-  .block_5_contacts p:nth-last-child(2) {
+  .block_5_contacts p {
     font-size: 3.3vw;
     margin-bottom: 5px;
   }
@@ -1265,7 +1267,7 @@ background: rgba(186, 231, 255, 0.136); */
     font-size: 4vw;
   }
 
-  .block_3_name p {
+  .block_3_name h2 {
     font-size: 7vw;
   }
 
