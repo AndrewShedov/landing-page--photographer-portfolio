@@ -166,6 +166,7 @@ ul {
 
 .block_1_button {
   margin-top: 180px;
+  display: block;
 }
 
 .block_1_button button {
