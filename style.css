@@ -776,7 +776,7 @@ ul {
   text-align: center !important;
 }
 
-/*////////////////////mobile menu//////////////*/
+/*mobile menu*/
 .menu_mobile_logo {
   display: flex;
   justify-content: center;
@@ -804,7 +804,6 @@ ul {
   right: 0;
   transform: translateX(101%);
   height: 100%;
-  /* box-shadow: 0 4px 19px rgba(179, 194, 233, 0.267); */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: saturate(120%) blur(2px);
   background: rgba(186, 231, 255, 0.49);
@@ -819,9 +818,6 @@ ul {
 .menu_mobile ul li a.active {
   transition: all 300ms ease;
   color: #48aaca;
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
- border-radius: 5px;
-background: rgba(186, 231, 255, 0.136); */
 }
 
 .menu-open {
@@ -877,14 +873,6 @@ background: rgba(186, 231, 255, 0.136); */
 
   .block_5_footer {
     flex-wrap: wrap;
- 
-  }
-
-  .block_5_footer_name_Andrew {
-  
-  }
-
-  .block_5_footer_name_Mohammad {
  
   }
 
@@ -978,7 +966,6 @@ background: rgba(186, 231, 255, 0.136); */
   }
 
   .burger {
-    /*width: 35px;*/
     width: 25px;
     height: 20px;
     padding: 4px;
@@ -1301,6 +1288,7 @@ background: rgba(186, 231, 255, 0.136); */
     padding-left: 2px;
   }
 
+  
   .block_2_gallery_menu {
     margin-top: 30px;
   }
@@ -1400,4 +1388,10 @@ background: rgba(186, 231, 255, 0.136); */
   .block_2_more p {
     font-size: 4.3vw;
   }
+}
+
+@media (max-width: 550px) {
+.block_2_gallery_menu span {
+  font-size: 3vw;
+}
 }
