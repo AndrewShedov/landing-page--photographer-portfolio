@@ -1,3 +1,50 @@
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  -webkit-animation: fade-in 700ms linear;
+  -moz-animation: fade-in 700ms linear;
+  -o-animation: fade-in 700ms linear;
+  animation: fade-in 700ms linear;
+}
+
 * {
   text-decoration: none;
   outline: none;
