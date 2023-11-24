@@ -1,4 +1,4 @@
-## Landing page - photographer portfolio
+## Landing page - Photographer portfolio
 Based on designer layout, using: Flexbox/Grid, Swiper, Fancybox and pure js.
 #### For start:
 #### npm install
