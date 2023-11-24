@@ -1,4 +1,3 @@
-import './style.css'
 // import Swiper slider bundle with all modules installed
 import Swiper from 'swiper/bundle';
 // import Swiper slider
