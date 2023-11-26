@@ -486,7 +486,7 @@ ul {
 }
 
 .block_3_title {
-  margin-top: 7px;
+  padding-top: 7px;
 }
 
 .block_3_title p {
@@ -500,7 +500,7 @@ ul {
 }
 
 .block_3_name {
-  margin-top: 37px;
+  padding-top: 37px;
 }
 
 .block_3_name h2 {
@@ -516,7 +516,7 @@ ul {
 .block_3_text {
   width: 100%;
   max-width: 540px;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .block_3_text p {
@@ -657,7 +657,6 @@ ul {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 5.6px;
-  margin-bottom: 26px;
   }
 
 .block_5_contacts p {
@@ -668,7 +667,8 @@ ul {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 3.6px;
-  margin-bottom: 26px;
+  padding-top: 26px;
+  
 }
 
 .block_5_links {
@@ -676,6 +676,7 @@ ul {
   gap: 29px;
   position: relative;
   top: 5px;
+  padding-top: 26px;
 }
 
 .block_5_links svg {
@@ -1131,15 +1132,15 @@ ul {
   }
 
   .block_3_title {
-    margin-top: 0px;
+    padding-top: 0px;
   }
 
   .block_3_name {
-    margin-top: 25px;
+    padding-top: 25px;
   }
 
   .block_3_text {
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .block_3_text p {
@@ -1240,11 +1241,10 @@ ul {
 
   .block_5_contacts h2 {
     font-size: 5.4vw;
-    margin-bottom: 12px;
   }
 
   .block_5_name {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-right: 0px;
   }
 
@@ -1254,10 +1254,11 @@ ul {
 
   .block_5_contacts p {
     font-size: 3.3vw;
-    margin-bottom: 5px;
+ padding-top: 12px;
   }
 
   .block_5_links {
+    padding-top: 5px;
     gap: 20px;
   }
 
