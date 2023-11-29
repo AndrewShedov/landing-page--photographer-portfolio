@@ -479,8 +479,6 @@ ul {
 }
 
 .block_3_about {
-  display: flex;
-  flex-direction: column;
   background: #FFF;
   padding: 63px;
 }
@@ -640,8 +638,8 @@ ul {
 
 .block_5_contacts_wrap {
   width: 50%;
-  display: flex;
-  flex-direction: column;
+ 
+
   margin-left: 20px;
 }
 
