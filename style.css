@@ -87,13 +87,13 @@ ul {
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("public/fonts/Montserrat-Medium.ttf");
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Sacramento-Regular";
   src: url("public/fonts/Sacramento-Regular.ttf");
-  font-display: swap;
+  font-display: block;
 }
 
 .block_1_wrap {
