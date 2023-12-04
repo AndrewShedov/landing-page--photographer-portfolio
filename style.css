@@ -663,7 +663,7 @@ ul {
   justify-content: right;
   transition: all 300ms ease;
   position: relative;
-  right: 3px;
+  right: 2px;
 }
 
 .block_5_name p {
@@ -876,8 +876,6 @@ ul {
 }
 
 /* Media */
-@media (max-width: 1150px) {}
-
 @media (max-width: 1000px) {
   .block_5_wrap {
     height: 900px;
