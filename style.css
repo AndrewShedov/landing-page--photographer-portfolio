@@ -579,7 +579,7 @@ ul {
 
 .swiper-slide {
   cursor: pointer;
-}
+ }
 
 .swiper_slide_image {
   width: 100%;
@@ -615,8 +615,6 @@ ul {
 
 .block_5_contacts_wrap {
   width: 50%;
- 
-
   margin-left: 20px;
 }
 
