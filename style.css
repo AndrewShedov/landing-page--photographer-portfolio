@@ -586,9 +586,6 @@ ul {
 }
 
 .swiper_slide_image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   max-width: 255px;
   height: 255px;
