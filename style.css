@@ -875,6 +875,116 @@ ul {
   transition: all 300ms ease;
 }
 
+/* "Burger" */
+.burger {
+  display: none;
+  width: 25px;
+  height: 20px;
+  padding: 4px;
+  transition: all 300ms ease;
+  z-index: 99;
+  cursor: pointer;
+  position: fixed;
+  right: -17.7px;
+  top: 6px;
+}
+
+.burger:hover {
+  cursor: pointer;
+}
+
+.burger .burger-bar {
+  position: absolute;
+  border-radius: 2px;
+  width: 10px;
+  transition: all 500ms ease !important;
+}
+
+.burger .burger-bar-top {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  border-bottom: none;
+  top: 0;
+  background-color: #56CCF2;
+}
+
+.burger .burger-bar-middle {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: #56CCF2;
+  top: 11px;
+}
+
+.burger .burger-bar-bottom {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: #56CCF2;
+  border-top: none;
+  top: 22px;
+}
+
+.burger .burger-bar-bottom1 {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: #56CCF2;
+  border-top: none;
+  top: 33px;
+}
+
+.burger .burger-bar-bottom2 {
+  height: 70px;
+  width: 70px;
+  background-color: rgba(131, 236, 140, 0);
+  border-top: none;
+  top: -3px;
+  right: -10px;
+}
+
+.burger-open .burger-bar-top {
+  transform: rotate(270deg) translate(-4px, 15px);
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: #56CCF2;
+  right: 11.7px;
+  top: -3px;
+}
+
+.burger-open .burger-bar-middle {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  left: 29.3px;
+  top: 33px;
+  background-color: #56CCF2;
+  transform: rotate(270deg);
+}
+
+.burger-open .burger-bar-bottom {
+  transform: rotate(270deg) translate(1px, 11px);
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: #56CCF2;
+  right: 7.8px;
+  top: 13px;
+}
+
+.burger-open .burger-bar-bottom1 {
+  transform: rotate(225deg) translate(1px, 11px);
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  right: 3.8px !important;
+  top: 31px;
+  background-color: #56CCF2;
+}
+
 /* Media */
 @media (max-width: 1000px) {
   .block_5_wrap {
@@ -931,6 +1041,9 @@ ul {
   .menu_wrap {
     display: none;
   }
+  .burger {
+    display: block;
+}
 }
 
 /* Hover */
@@ -967,114 +1080,6 @@ ul {
 @media (max-width: 1100px) {
   .block_2_more {
     margin-top: 15px;
-  }
-
-  .burger {
-    width: 25px;
-    height: 20px;
-    padding: 4px;
-    transition: all 300ms ease;
-    z-index: 99;
-    cursor: pointer;
-    position: fixed;
-    right: -17.7px;
-    top: 6px;
-  }
-
-  .burger:hover {
-    cursor: pointer;
-  }
-
-  .burger .burger-bar {
-    position: absolute;
-    border-radius: 2px;
-    width: 10px;
-    transition: all 500ms ease !important;
-  }
-
-  .burger .burger-bar-top {
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    border-bottom: none;
-    top: 0;
-    background-color: #56CCF2;
-  }
-
-  .burger .burger-bar-middle {
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background-color: #56CCF2;
-    top: 11px;
-  }
-
-  .burger .burger-bar-bottom {
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background-color: #56CCF2;
-    border-top: none;
-    top: 22px;
-  }
-
-  .burger .burger-bar-bottom1 {
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background-color: #56CCF2;
-    border-top: none;
-    top: 33px;
-  }
-
-  .burger .burger-bar-bottom2 {
-    height: 70px;
-    width: 70px;
-    background-color: rgba(131, 236, 140, 0);
-    border-top: none;
-    top: -3px;
-    right: -10px;
-  }
-
-  .burger-open .burger-bar-top {
-    transform: rotate(270deg) translate(-4px, 15px);
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background-color: #56CCF2;
-    right: 11.7px;
-    top: -3px;
-  }
-
-  .burger-open .burger-bar-middle {
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    left: 29.3px;
-    top: 33px;
-    background-color: #56CCF2;
-    transform: rotate(270deg);
-  }
-
-  .burger-open .burger-bar-bottom {
-    transform: rotate(270deg) translate(1px, 11px);
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background-color: #56CCF2;
-    right: 7.8px;
-    top: 13px;
-  }
-
-  .burger-open .burger-bar-bottom1 {
-    transform: rotate(225deg) translate(1px, 11px);
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    right: 3.8px !important;
-    top: 31px;
-    background-color: #56CCF2;
   }
 }
 
