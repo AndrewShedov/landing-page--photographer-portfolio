@@ -615,11 +615,8 @@ ul {
   margin-right: 20px;
 }
 
-.block_5_contacts_wrap {
-  width: 50%;
-}
-
 .block_5_contacts {
+  width: 50%;
   transition: all 300ms ease;
 }
 
@@ -659,14 +656,11 @@ ul {
   transition: all 300ms ease;
 }
 
-.block_5_name_wrap {
+.block_5_name {
   display: flex;
   align-items: flex-end;
   width: 50%;
   justify-content: right;
-}
-
-.block_5_name {
   transition: all 300ms ease;
   position: relative;
   right: 3px;
