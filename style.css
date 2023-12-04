@@ -579,17 +579,11 @@ ul {
 
 .swiper-slide {
   cursor: pointer;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  width: auto;
 }
 
 .swiper_slide_image {
   width: 100%;
-  max-width: 255px;
   height: 255px;
-  position: relative;
 }
 
 .swiper_slide_image img {
