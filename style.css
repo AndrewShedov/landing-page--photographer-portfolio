@@ -572,12 +572,9 @@ ul {
   max-width: 1110px;
 }
 
-.swiper-slide {
-  cursor: pointer;
-}
-
 .swiper_slide_image {
   height: 255px;
+  cursor: pointer;
 }
 
 .swiper_slide_image img {
