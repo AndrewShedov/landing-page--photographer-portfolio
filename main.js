@@ -6,7 +6,6 @@ import 'swiper/css/bundle';
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 const Swiper1 = new Swiper("#swiper_1", {
-  lazyLoading: true,
   loop: true,
   slidesPerView: 4,
   spaceBetween: 29,
