@@ -27,12 +27,10 @@ const Swiper1 = new Swiper("#swiper_1", {
     685: {
       slidesPerView: 3,
       spaceBetween: 20,
-      centeredSlides: false,
     },
     920: {
       slidesPerView: 4,
       spaceBetween: 29,
-      centeredSlides: false,
     }
   },
 });
