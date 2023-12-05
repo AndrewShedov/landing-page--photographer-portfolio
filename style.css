@@ -887,7 +887,7 @@ ul {
   cursor: pointer;
 }
 
-.burger .burger-bar {
+.burger-bar {
   position: absolute;
   border-radius: 2px;
   width: 10px;
@@ -898,7 +898,6 @@ ul {
   border-radius: 50%;
   height: 7px;
   width: 7px;
-  border-bottom: none;
   top: 0;
   background-color: #56CCF2;
 }
@@ -916,7 +915,6 @@ ul {
   height: 7px;
   width: 7px;
   background-color: #56CCF2;
-  border-top: none;
   top: 22px;
 }
 
@@ -925,7 +923,6 @@ ul {
   height: 7px;
   width: 7px;
   background-color: #56CCF2;
-  border-top: none;
   top: 33px;
 }
 
@@ -933,9 +930,9 @@ ul {
   height: 70px;
   width: 70px;
   background-color: rgba(131, 236, 140, 0);
-  border-top: none;
   top: -3px;
   right: -10px;
+  
 }
 
 .burger-open .burger-bar-top {
