@@ -272,6 +272,13 @@ ul {
   margin-top: 63px;
 }
 
+.block_2_gallery_menu ul {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+
 .block_2_gallery_menu span {
   color: #BDBDBD;
   font-family: Montserrat;
@@ -408,12 +415,6 @@ ul {
 .block_2_gallery_slide.active {
   top: 0;
   transform: scale(1);
-}
-
-.block_2_gallery_menu_buttons_wrap {
-  display: flex;
-  height: 60px;
-  align-items: center;
 }
 
 .block_2_more_wrap {

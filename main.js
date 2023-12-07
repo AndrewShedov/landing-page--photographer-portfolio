@@ -47,7 +47,7 @@ Fancybox.bind(document.getElementById("block_2_gallery_4"), "[data-fancybox]", {
   closeClickOutside: true,
 });
 //Gallery slider
-const galleryButtons = Array.from(document.querySelectorAll(".block_2_gallery_menu_button"));
+const galleryButtons = Array.from(document.querySelectorAll(".block_2_gallery_menu li"));
 const gallerySlide = Array.from(document.querySelectorAll(".block_2_gallery_slide"));
 galleryButtons[0].classList.add("active");
 gallerySlide[0].classList.add("active");
@@ -58,7 +58,7 @@ galleryButtons.forEach((e) => {
 });
 function buttonClick(e) {
   e.preventDefault();
-  const button = e.target.closest(".block_2_gallery_menu_button");
+  const button = e.target.closest(".block_2_gallery_menu li");
   changeButton(button);
 }
 function changeButton(button) {
