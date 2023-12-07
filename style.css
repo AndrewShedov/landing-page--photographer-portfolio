@@ -272,13 +272,6 @@ ul {
   margin-top: 63px;
 }
 
-.block_2_gallery_menu ul {
-  display: flex;
-  height: 60px;
-  align-items: center;
-}
-
-
 .block_2_gallery_menu span {
   color: #BDBDBD;
   font-family: Montserrat;
@@ -292,14 +285,7 @@ ul {
 }
 
 .block_2_gallery_menu ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+ display: flex;
 }
 
 .block_2_gallery_menu ul li {
