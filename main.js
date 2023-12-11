@@ -9,7 +9,7 @@ const Swiper1 = new Swiper("#swiper_1", {
   loop: true,
   slidesPerView: 4,
   spaceBetween: 29,
-  speed: 7200,
+  speed: 8000,
   autoplay: {
     delay: false,
     pauseOnMouseEnter: true,
