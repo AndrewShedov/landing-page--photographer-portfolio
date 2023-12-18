@@ -46,7 +46,7 @@ Fancybox.bind(document.getElementById("block_2_gallery_3"), "[data-fancybox]", {
 Fancybox.bind(document.getElementById("block_2_gallery_4"), "[data-fancybox]", {
   closeClickOutside: true,
 });
-//Gallery slider
+// Gallery slider
 const galleryButtons = Array.from(document.querySelectorAll(".block_2_gallery_menu ul li"));
 const gallerySlide = Array.from(document.querySelectorAll(".block_2_gallery_slide"));
 galleryButtons[0].classList.add("active");
@@ -79,7 +79,7 @@ function changeSlide(index) {
   gallerySlide[index].classList.add("active");
   activeSlide = gallerySlide[index];
 }
-//Menu fixed
+// Menu fixed
 window.addEventListener('scroll', function () {
   const scrollPosition = window.scrollY;
   const menuWrap = document.querySelector(".menu_wrap");
@@ -141,10 +141,10 @@ for (let item of anchorlinks) { // relitere
     e.preventDefault()
   })
 }
-//Mobile menu
+// Mobile menu
 let burger = document.getElementById('burger');
 let menu = document.getElementById('menu_mobile');
-///////////////Function opening menu
+// Function opening menu
 function calcShowMenu(showMenu) {
   burger.classList.toggle("burger-open", showMenu);
   menu.classList.toggle("menu-open", showMenu);
@@ -153,22 +153,22 @@ function calcShowMenu(showMenu) {
   [burger.style].map(v => v.transform = `translateX(${showMenu ? -menuWidth - 25 : 0}px)`);
 }
 let showMenu = false
-/////////////////Pressing a Burger
+// Pressing a Burger
 burger.addEventListener('click', () => calcShowMenu(showMenu = !showMenu)
 );
 ;
-/////////////Closing when pressed outside the menu
+// Closing when pressed outside the menu
 window.addEventListener('mousedown', event => {
   if (!event.target.closest(".menu_mobile, .burger"))
     calcShowMenu(showMenu = false);
 }
 )
-/////////////Closing when pressed outside the menu for mobile
+// Closing when pressed outside the menu for mobile
 window.addEventListener('touchstart', event => {
   if (!event.target.closest(".menu_mobile, .burger"))
     calcShowMenu(showMenu = false);
 })
-/////////////Closing when you click on a menu item
+// Closing when you click on a menu item
 document.getElementById('menu_mobile').onclick = function (event) {
   var target = event.target;
   if (target.tagName == 'A') {
