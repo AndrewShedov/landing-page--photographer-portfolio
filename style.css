@@ -1163,24 +1163,25 @@ ul {
 
 @media (max-width: 500px) {
   .block_5_footer_names {
-    gap: 0px;
+    gap: 5px;
     flex-wrap: wrap;
+    margin-bottom: 7px;
   }
 
   .block_5_footer_name_Andrew p {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
   .block_5_footer_name_Mohammad p {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
   .block_5_footer_name_Andrew a {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
   .block_5_footer_name_Mohammad a {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
   .block_4_title h2 {
