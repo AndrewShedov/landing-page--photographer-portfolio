@@ -140,7 +140,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 59px;
-  top: 0px;
+  top: 0;
   z-index: 99;
   transition: all 300ms ease;
   width: 100%;
@@ -149,7 +149,7 @@ ul {
 
 .menu_wrap.fixed {
   position: fixed;
-  margin-top: 0px;
+  margin-top: 0;
   transition: all 300ms ease;
   box-shadow: 0 4px 19px rgba(179, 194, 233, 0.267);
   transform: translateZ(0);
@@ -394,7 +394,7 @@ ul {
 
 .block_2_gallery_slide {
   grid-area: 1 / 1;
-  transform: translate(-1000px, 0px);
+  transform: translate(-1000px, 0);
   transition: transform 800ms ease-in-out 0ms;
 }
 
@@ -1059,7 +1059,7 @@ ul {
   }
 
   .block_3_title {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .block_3_name {
@@ -1229,7 +1229,7 @@ ul {
   }
 
   .block_2_title {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .block_2_title h2 {
@@ -1260,7 +1260,7 @@ ul {
   .block_2_gallery {
     transition: all 300ms ease;
     row-gap: 20px;
-    column-gap: 0px;
+    column-gap: 0;
     grid-template-areas: "box1" "box2" "box3" "box4";
   }
 
