@@ -7,7 +7,7 @@ Pixel Perfect landing page, based on designer [layout](https://github.com/Andrew
 Technologies: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Fancybox](https://fancyapps.com/fancybox/), [Vite](https://vitejs.dev/) and pure js.<br/>
 
 <a href="https://landing-page-photographer-portfolio.vercel.app/" target="_blank">
-<img src="https://raw.githubusercontent.com/AndrewShedov/landing-page--photographer-portfolio/refs/heads/main/public/screenshot.png" width="700" />
+<img src="https://raw.githubusercontent.com/AndrewShedov/landing-page--photographer-portfolio/refs/heads/main/public/screenshot.webp" width="700" />
 </a>
 
 [PageSpeed Insights test](https://developers.google.com/speed/pagespeed/insights/?url=https://landing-page-photographer-portfolio.vercel.app/) <br/>
