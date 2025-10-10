@@ -2,7 +2,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&logo=5865F2&logoColor=black&labelColor=black&color=%23f3f3f3)](https://github.com/AndrewShedov/landing-page--photographer-portfolio/blob/main/LICENSE)
 
 # Landing page - Photographer portfolio
-Pixel Perfect landing page, based on designer [layout](https://github.com/AndrewShedov/landing-page--photographer-portfolio/tree/main/public/layout).<br/>
+**Pixel Perfect** landing page, based on **designer [layout](https://github.com/AndrewShedov/landing-page--photographer-portfolio/tree/main/public/layout)**.<br/>
 Technologies: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Fancybox](https://fancyapps.com/fancybox/), [Vite](https://vitejs.dev/) and pure js.<br/>
 <br>
 <a href="https://landing-page-photographer-portfolio.vercel.app/" target="_blank">
