@@ -9,7 +9,7 @@ Technologies: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Fancybox](https://
 <img src="https://raw.githubusercontent.com/AndrewShedov/landing-page--photographer-portfolio/refs/heads/main/public/screenshot.webp" width="700" />
 </a>
 
-#### For start:
+#### How to Run:
 
 ```bash
 npm i
