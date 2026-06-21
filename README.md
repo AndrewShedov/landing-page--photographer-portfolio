@@ -2,7 +2,7 @@
 
 # Landing page - Photographer portfolio
 **Pixel Perfect** landing page, based on [designer mockup](https://github.com/AndrewShedov/landing-page--photographer-portfolio/tree/main/mockup).<br/>
-Technologies: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Fancybox](https://fancyapps.com/fancybox/), [Vite](https://vitejs.dev/) and pure js.<br/>
+**Technologies**: Flexbox/Grid, [Swiper](https://swiperjs.com/), [Fancybox](https://fancyapps.com/fancybox/), [Vite](https://vitejs.dev/) and pure js.<br/>
 <br>
 <a href="https://landing-page-photographer-portfolio.vercel.app/" target="_blank">
 <img src="https://raw.githubusercontent.com/AndrewShedov/landing-page--photographer-portfolio/refs/heads/main/public/screenshot.webp" width="700" />
